@@ -1,2 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.img-container {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-highlight {
+  color: #100a08;
+}
+
+.btn-dark {
+  font-weight: 500;
+  padding: 1rem 4rem;
+}
+
+.btn-outline-dark {
+  background: white;
+}
+
+.btn-dark:hover {
+  background-color: #fbfbfb;
+  color: #100a08;
+}
+
+.title,
+.subtitle {
+  font-family: "Lato", sans-serif;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-weight: 600;
+}
+
+.hero .title {
+  font-family: "Inter", sans-serif;
+  color: #f59327;
+}
 /*# sourceMappingURL=style.css.map */

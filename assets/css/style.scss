@@ -7,6 +7,53 @@ $color-whiteout: #fbfbfb;
 $color-icebreaker: #b8c1cb;
 $color-smokyblack: #100a08;
 $color-printrdbark: #5d3b32;
-$color-adventureorange: #e9a368;
+$color-adventureorange: #f59327;
 $color-pindjurred: #bf4a14;
 $color-crystalblue: #679db0;
+
+body {
+    font-family: $font-Inter;
+}
+
+.img-container {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-highlight {
+    color: $color-smokyblack;
+}
+
+.btn-dark {
+    font-weight: 500;
+    padding: 1rem 4rem;
+}
+
+.btn-outline-dark {
+    background: white;
+}
+.btn-dark:hover {
+    background-color: $color-whiteout;
+    color: $color-smokyblack;
+}
+
+.title,
+.subtitle {
+    font-family: $font-Lato;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+.hero {
+    .title {
+        font-family: $font-Inter;
+        color: $color-adventureorange;
+    }
+}
