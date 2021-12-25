@@ -151,6 +151,19 @@ body {
         transition: all ease 0.5s;
         .icon {
             font-size: 96px;
+            background: -webkit-linear-gradient(
+                $color-adventureorange,
+                $color-printrdbark
+            );
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all ease 0.5s;
+
+            i {
+                border: 2px solid transparent;
+                transition: all ease 0.3s;
+            }
         }
         .description {
             color: gray;
@@ -158,9 +171,19 @@ body {
     }
 
     .services-card:hover {
+        border: 2px solid $color-adventureorange !important;
         background: $color-smokyblack;
-        color: $color-whiteout;
-        box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
+        color: $color-adventureorange;
+        box-shadow: 0px 15px 25px rgba(245, 147, 39, 0.3);
         transform: scale(1.05);
+        .icon {
+            transform: scale(1.25);
+            -webkit-text-fill-color: $color-adventureorange;
+            i {
+                border-radius: 50px !important;
+                border: 2px solid $color-adventureorange;
+                background: $color-whiteout;
+            }
+        }
     }
 }
