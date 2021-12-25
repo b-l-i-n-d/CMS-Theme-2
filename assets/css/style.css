@@ -7,6 +7,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 384px;
+  border-radius: 15px;
 }
 
 .text-highlight {
@@ -16,6 +18,11 @@ body {
 .btn-dark {
   font-weight: 500;
   padding: 1rem 4rem;
+}
+
+.dark-box-shadow {
+  -webkit-box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
+          box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
 }
 
 .btn-outline-dark {
@@ -28,7 +35,8 @@ body {
 }
 
 .title,
-.subtitle {
+.subtitle,
+.summary {
   font-family: "Lato", sans-serif;
 }
 
