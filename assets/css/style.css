@@ -48,6 +48,14 @@ body {
   font-weight: 600;
 }
 
+.h-line {
+  height: 0.25rem;
+  width: 12rem;
+  background: #f59327;
+  border-radius: 25px;
+  margin: 0.5rem;
+}
+
 .swiper .swiper-pagination-bullet {
   background: none !important;
   border: 2px solid #f59327 !important;
@@ -107,6 +115,10 @@ body {
   color: #f59327;
 }
 
+.contentSlider .img-container {
+  border-radius: 0px;
+}
+
 .features .features-card {
   border-radius: 15px;
   -webkit-transition: all ease 0.5s;
@@ -164,6 +176,8 @@ body {
           box-shadow: 0px 15px 25px rgba(245, 147, 39, 0.3);
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  -webkit-transform: translateY(-1.25rem);
+          transform: translateY(-1.25rem);
 }
 
 .services .services-card:hover .icon {
@@ -176,5 +190,45 @@ body {
   border-radius: 50px !important;
   border: 2px solid #f59327;
   background: #fbfbfb;
+}
+
+.testimonials .testimonial-card {
+  border-radius: 15px;
+  background: #fbfbfb;
+}
+
+.testimonials .testimonial-card .testimonial-card-image {
+  height: 160px;
+}
+
+.testimonials .testimonial-card .testimonial-quote {
+  color: #f59327;
+}
+
+.testimonials .swiper {
+  background: #fcf4e9;
+  border-radius: 25px;
+}
+
+.testimonials .swiper .swiper-slide {
+  padding: 40px 12px !important;
+}
+
+@media (min-width: 576px) {
+  .testimonials .swiper .swiper-slide {
+    padding: 40px 20px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonials .swiper .swiper-slide {
+    padding: 50px 25px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonials .swiper .swiper-slide {
+    padding: 60px 40px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
