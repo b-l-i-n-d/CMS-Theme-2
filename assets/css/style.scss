@@ -1,18 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap");
 
-$font-Inter: "Inter", sans-serif;
-$font-Lato: "Lato", sans-serif;
+$font-Poppins: "Poppins", sans-serif;
+$font-Ubuntu: "Ubuntu", sans-serif;
 
 $color-whiteout: #fbfbfb;
 $color-icebreaker: #b8c1cb;
-$color-smokyblack: #100a08;
+$color-smokyblack: #1e293b;
 $color-printrdbark: #5d3b32;
 $color-adventureorange: #f59327;
 $color-pindjurred: #bf4a14;
 $color-crystalblue: #679db0;
 
 body {
-    font-family: $font-Inter;
+    font-family: $font-Poppins;
 }
 
 .img-container {
@@ -47,7 +47,7 @@ body {
 .title,
 .subtitle,
 .summary {
-    font-family: $font-Lato;
+    font-family: $font-Ubuntu;
 }
 
 .title {
@@ -97,34 +97,12 @@ body {
     .swiper-button-prev:hover {
         opacity: 100%;
     }
-
-    .swiper-slide {
-        padding: 60px;
-    }
-
-    @media (min-width: 576px) {
-        .swiper-slide {
-            padding: 70px;
-        }
-    }
-
-    @media (min-width: 768px) {
-        .swiper-slide {
-            padding: 80px;
-        }
-    }
-
-    @media (min-width: 992px) {
-        .swiper-slide {
-            padding: 90px;
-        }
-    }
 }
 
 // hero
 .hero {
     .title {
-        font-family: $font-Inter;
+        font-family: $font-Poppins;
         color: $color-adventureorange;
     }
 }
@@ -134,6 +112,29 @@ body {
 .contentSlider {
     .img-container {
         border-radius: 0px;
+    }
+    .swiper {
+        .swiper-slide {
+            padding: 60px;
+        }
+
+        @media (min-width: 576px) {
+            .swiper-slide {
+                padding: 70px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .swiper-slide {
+                padding: 80px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .swiper-slide {
+                padding: 90px;
+            }
+        }
     }
 }
 
@@ -245,5 +246,36 @@ body {
                 padding: 60px 40px !important;
             }
         }
+    }
+}
+
+// counts
+
+.counts {
+    .counts-card {
+        border: $color-adventureorange 2px solid;
+        border-radius: 15px;
+        background: $color-smokyblack;
+        padding: 2.5rem;
+        .title {
+            color: $color-whiteout;
+            font-family: $font-Poppins;
+        }
+
+        .subtitle {
+            color: $color-icebreaker;
+        }
+
+        .h-line {
+            height: 0.125rem;
+            width: 100%;
+            background: $color-adventureorange;
+            border-radius: 25px;
+            margin: 2rem 0 0.25rem 0;
+        }
+    }
+
+    .dark-box-shadow {
+        box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
     }
 }
