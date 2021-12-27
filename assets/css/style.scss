@@ -279,3 +279,27 @@ body {
         box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
     }
 }
+
+// Faq
+
+.faq {
+    .accordion {
+        .accordion-item {
+            padding: 1rem 0px;
+            .accordion-button {
+                box-shadow: none;
+                font-weight: 600;
+                &::after {
+                    background-image: url("../img/faq/bxs-down-arrow.svg");
+                }
+                &:not(.collapsed) {
+                    color: $color-adventureorange;
+                    background-color: #f1f5f9;
+                    &::after {
+                        background-image: url("../img/faq/bxs-down-arrow-colored.svg");
+                    }
+                }
+            }
+        }
+    }
+}
