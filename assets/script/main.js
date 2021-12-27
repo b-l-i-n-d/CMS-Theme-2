@@ -61,3 +61,23 @@ const swiper2 = new Swiper(".testimonial-swiper", {
         },
     },
 });
+
+const counterUp = window.counterUp.default;
+
+const el = document.querySelectorAll(".counter");
+
+// Start counting, typically you need to call this when the
+// element becomes visible, or whenever you like.
+el.forEach((element) => {
+    new Waypoint({
+        element: element,
+        handler: function () {
+            counterUp(element, {
+                duration: 2000,
+                delay: 16,
+            });
+            this.destroy();
+        },
+        offset: "bottom-in-view",
+    });
+});
