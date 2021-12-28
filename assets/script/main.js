@@ -62,6 +62,31 @@ const swiper2 = new Swiper(".testimonial-swiper", {
     },
 });
 
+const swiper3 = new Swiper(".client-swiper", {
+    // Optional parameters
+    loop: true,
+
+    // Autoplay
+    autoplay: {
+        delay: 1000,
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 2,
+        },
+        576: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 6,
+        },
+    },
+});
+
 const counterUp = window.counterUp.default;
 
 const el = document.querySelectorAll(".counter");
