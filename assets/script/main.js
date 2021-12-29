@@ -87,6 +87,33 @@ const swiper3 = new Swiper(".client-swiper", {
     },
 });
 
+const swiper4 = new Swiper(".member-swiper", {
+    // Optional parameters
+    loop: true,
+
+    // Autoplay
+    autoplay: {
+        delay: 2000,
+        pauseOnMouseEnter: true
+    },
+
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        576: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 3,
+        },
+        1024: {
+            slidesPerView: 4,
+        },
+    },
+});
+
+
 const counterUp = window.counterUp.default;
 
 const el = document.querySelectorAll(".counter");
