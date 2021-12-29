@@ -345,14 +345,14 @@ body {
 
         &:hover {
             .duration {
-                color: #1e293b;
+                color: $color-smokyblack;
             }
             .features {
                 .bxs-check-circle {
                     color: #22c55e;
                 }
             }
-            background: #1e293b;
+            background: $color-smokyblack;
             color: $color-whiteout;
             transform: scale(0.97);
         }
@@ -400,11 +400,11 @@ body {
             a {
                 color: $color-whiteout;
                 .bx {
-                    background: #1e293b;
+                    background: $color-smokyblack;
                     transition: all ease 0.3s;
                 }
                 &:hover {
-                    color: #1e293b;
+                    color: $color-smokyblack;
                     .bx {
                         background: $color-whiteout;
                     }
@@ -412,9 +412,19 @@ body {
             }
         }
         &:hover {
-            background: #1e293b;
+            background: $color-smokyblack;
             color: #e2e8f0;
             border-bottom: $color-adventureorange 8px solid;
+        }
+    }
+}
+
+// skills
+
+.skills {
+    .progress {
+        .progress-bar {
+            background-color: $color-smokyblack;
         }
     }
 }
