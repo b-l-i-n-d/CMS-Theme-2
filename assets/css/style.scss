@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Nunito:wght@300;400;700&display=swap");
 
-$font-Poppins: "Poppins", sans-serif;
-$font-Ubuntu: "Ubuntu", sans-serif;
+$font-Roboto: "Roboto", sans-serif;
+$font-Nunito: "Nunito", sans-serif;
 
 $color-whiteout: #fbfbfb;
 $color-icebreaker: #b8c1cb;
@@ -12,7 +12,7 @@ $color-pindjurred: #bf4a14;
 $color-crystalblue: #679db0;
 
 body {
-    font-family: $font-Poppins;
+    font-family: $font-Roboto;
 }
 
 .img-container {
@@ -30,6 +30,7 @@ body {
 .btn-dark {
     font-weight: 500;
     padding: 1rem 4rem;
+    background: $color-smokyblack;
 }
 
 .dark-box-shadow {
@@ -47,7 +48,7 @@ body {
 .title,
 .subtitle,
 .summary {
-    font-family: $font-Ubuntu;
+    font-family: $font-Nunito;
 }
 
 .title {
@@ -102,7 +103,7 @@ body {
 // hero
 .hero {
     .title {
-        font-family: $font-Poppins;
+        font-family: $font-Roboto;
         color: $color-adventureorange;
     }
 }
@@ -259,7 +260,7 @@ body {
         padding: 2.5rem;
         .title {
             color: $color-whiteout;
-            font-family: $font-Poppins;
+            font-family: $font-Roboto;
         }
 
         .subtitle {
@@ -312,7 +313,7 @@ body {
         background: white;
         transition: all ease 0.3s;
         .title {
-            font-family: $font-Poppins;
+            font-family: $font-Roboto;
         }
         .h-line {
             width: 100%;
@@ -425,6 +426,45 @@ body {
     .progress {
         .progress-bar {
             background-color: $color-smokyblack;
+        }
+    }
+}
+
+// gallery
+
+.gallery {
+    .gallery-flex {
+        .gallery-item {
+            transition: all 0.3s ease;
+
+            img {
+                transition: all 0.3s ease;
+            }
+            .gallery-info {
+                display: none;
+                bottom: 6rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                transition: all 0.3s ease;
+
+                background: $color-whiteout;
+                border-radius: 10px;
+                .description {
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+                a {
+                    color: $color-smokyblack;
+                }
+            }
+            &:hover {
+                img {
+                    filter: brightness(50%);
+                }
+                .gallery-info {
+                    display: flex;
+                }
+            }
         }
     }
 }

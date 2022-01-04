@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Nunito:wght@300;400;700&display=swap");
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .img-container {
@@ -18,6 +18,7 @@ body {
 .btn-dark {
   font-weight: 500;
   padding: 1rem 4rem;
+  background: #1e293b;
 }
 
 .dark-box-shadow {
@@ -37,7 +38,7 @@ body {
 .title,
 .subtitle,
 .summary {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .title {
@@ -89,7 +90,7 @@ body {
 }
 
 .hero .title {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #f59327;
 }
 
@@ -241,7 +242,7 @@ body {
 
 .counts .counts-card .title {
   color: #fbfbfb;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .counts .counts-card .subtitle {
@@ -292,7 +293,7 @@ body {
 }
 
 .pricing .pricing-card .title {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .pricing .pricing-card .h-line {
@@ -409,5 +410,46 @@ body {
 
 .skills .progress .progress-bar {
   background-color: #1e293b;
+}
+
+.gallery .gallery-flex .gallery-item {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.gallery .gallery-flex .gallery-item img {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.gallery .gallery-flex .gallery-item .gallery-info {
+  display: none;
+  bottom: 6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background: #fbfbfb;
+  border-radius: 10px;
+}
+
+.gallery .gallery-flex .gallery-item .gallery-info .description {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.gallery .gallery-flex .gallery-item .gallery-info a {
+  color: #1e293b;
+}
+
+.gallery .gallery-flex .gallery-item:hover img {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.gallery .gallery-flex .gallery-item:hover .gallery-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
