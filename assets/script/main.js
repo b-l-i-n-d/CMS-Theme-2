@@ -163,5 +163,5 @@ filtersElem.addEventListener("click", function (event) {
 // lightbox
 
 const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox'
-  });
+    selector: ".gallery-lightbox",
+});

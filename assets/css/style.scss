@@ -468,3 +468,37 @@ body {
         }
     }
 }
+
+// portfolio
+
+.portfolio {
+    .h-line {
+        margin: 0.25rem 0px;
+    }
+    .img-container {
+        height: 500px;
+        a {
+            i {
+                transition: all 0.3s ease;
+            }
+            &:hover {
+                i {
+                    background: $color-icebreaker !important;
+                }
+            }
+        }
+    }
+    .btn-dark {
+        border-radius: 15px;
+        padding: 1rem;
+    }
+    .portfolio-attributes {
+        background: #f1f5f9;
+        border-radius: 15px;
+    }
+
+    .portfolio-skills {
+        background: #e2e8f0;
+        border-radius: 15px;
+    }
+}
