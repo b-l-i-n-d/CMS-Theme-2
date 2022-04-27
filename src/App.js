@@ -1,10 +1,10 @@
-import DefHeroSection from './components/sections/hero_section/defHeroSection';
+import DefAboutSection from './components/sections/about_section/defAboutSection';
 import './style.css';
 
 function App() {
     return (
         <div className="App">
-            <DefHeroSection />
+            <DefAboutSection />
         </div>
     );
 }
