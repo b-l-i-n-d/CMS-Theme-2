@@ -120,29 +120,6 @@ body {
     }
 }
 
-.features .features-card {
-    border-radius: 15px;
-    -webkit-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-}
-
-.features .features-card .icon {
-    font-size: 96px;
-}
-
-.features .features-card .description {
-    color: gray;
-}
-
-.features .features-card:hover {
-    background: #1e293b;
-    color: #fbfbfb;
-    -webkit-box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
-    box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-}
-
 .services .services-card {
     border-radius: 15px;
     -webkit-transition: all ease 0.5s;
