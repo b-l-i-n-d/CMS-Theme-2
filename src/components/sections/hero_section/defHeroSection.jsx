@@ -14,7 +14,7 @@ function DefHeroSection() {
             className={`${HeroSectionStyles.hero} vh-100 img-container`}
             style={{ backgroundImage: `url(${BackgroundImage})` }}
         >
-            <Container className="d-flex flex-wrap mx-auto h-100">
+            <Container fluid="xl" className="d-flex flex-wrap mx-auto h-100">
                 <Row>
                     <Col
                         sm={9}

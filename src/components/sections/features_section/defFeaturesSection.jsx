@@ -1,13 +1,14 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import { FaCat, FaCrow, FaDog, FaNapster } from 'react-icons/fa';
 import FeatureStyle from './defFeaturesSection.module.css';
 
 function DefFeaturesSection() {
     return (
         <section id="features" className={`${FeatureStyle.features} py-5`}>
-            <Container>
+            <Container fluid="xl">
                 <div className="d-flex flex-column align-items-center text-center py-5">
                     <div className="title">Lorem, ipsum.</div>
 
@@ -20,7 +21,7 @@ function DefFeaturesSection() {
                         iusto!
                     </div>
                 </div>
-                <div className="d-flex flex-wrap justify-content-center">
+                <Row className="d-flex flex-wrap justify-content-center">
                     <Col
                         sm={6}
                         md={4}
@@ -99,7 +100,7 @@ function DefFeaturesSection() {
                             </div>
                         </div>
                     </Col>
-                </div>
+                </Row>
             </Container>
         </section>
     );

@@ -120,56 +120,6 @@ body {
     }
 }
 
-.services .services-card {
-    border-radius: 15px;
-    -webkit-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-}
-
-.services .services-card .icon {
-    font-size: 96px;
-    background: -webkit-linear-gradient(#f59327, #5d3b32);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-}
-
-.services .services-card .icon i {
-    border: 2px solid transparent;
-    -webkit-transition: all ease 0.3s;
-    transition: all ease 0.3s;
-}
-
-.services .services-card .description {
-    color: gray;
-}
-
-.services .services-card:hover {
-    border: 2px solid #f59327 !important;
-    background: #1e293b;
-    color: #f59327;
-    -webkit-box-shadow: 0px 15px 25px rgba(245, 147, 39, 0.3);
-    box-shadow: 0px 15px 25px rgba(245, 147, 39, 0.3);
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    -webkit-transform: translateY(-1.25rem);
-    transform: translateY(-1.25rem);
-}
-
-.services .services-card:hover .icon {
-    -webkit-transform: scale(1.25);
-    transform: scale(1.25);
-    -webkit-text-fill-color: #f59327;
-}
-
-.services .services-card:hover .icon i {
-    border-radius: 50px !important;
-    border: 2px solid #f59327;
-    background: #fbfbfb;
-}
-
 .testimonials .testimonial-card {
     border-radius: 15px;
     background: #fbfbfb;

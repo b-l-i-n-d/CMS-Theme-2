@@ -7,7 +7,7 @@ import AboutImage from '../../../assets/img/about.jpg';
 function DefAboutSection() {
     return (
         <section id="about" className="about py-5">
-            <Container className="gap-3 gap-lg-0 flex-wrap-reverse py-5">
+            <Container fluid="xl" className="gap-3 gap-lg-0 flex-wrap-reverse py-5">
                 <Row>
                     <Col
                         lg={6}
