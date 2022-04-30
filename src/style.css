@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&family=Nunito:wght@300;400;700&display=swap");
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif !important;
 }
 
 .img-container {
@@ -87,11 +87,6 @@ body {
 .swiper .swiper-button-next:hover,
 .swiper .swiper-button-prev:hover {
     opacity: 100%;
-}
-
-.hero .title {
-    font-family: "Roboto", sans-serif;
-    color: #f59327;
 }
 
 .contentSlider .img-container {
@@ -333,10 +328,6 @@ body {
     background: #1e293b;
     color: #e2e8f0;
     border-bottom: #f59327 8px solid;
-}
-
-.skills .progress .progress-bar {
-    background-color: #1e293b;
 }
 
 .gallery .gallery-flex .gallery-item {
