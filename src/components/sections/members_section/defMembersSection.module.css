@@ -1,0 +1,35 @@
+.members {
+    background: #cbd5e1;
+}
+
+.members .memberCard {
+    border-radius: 15px;
+    border-bottom: 8px transparent solid;
+    background: #e2e8f0;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.members .memberCard:hover {
+    background: #1e293b;
+    color: #e2e8f0;
+    border-bottom: #f59327 8px solid;
+}
+
+.members .memberCard .socialIcons a {
+    color: #fbfbfb;
+}
+
+.members .memberCard .socialIcons a:hover {
+    color: #1e293b;
+}
+
+.members .memberCard .socialIcons a i {
+    background: #1e293b;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.members .memberCard .socialIcons a:hover i {
+    background: #fbfbfb;
+}

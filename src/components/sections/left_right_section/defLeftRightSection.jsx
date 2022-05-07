@@ -1,5 +1,6 @@
 import React from 'react';
-import { Col, Container } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import RightImg from '../../../assets/img/left-right/immo-wegmann-pAvpc7XsFdY-unsplash.jpg';
 import LeftImg from '../../../assets/img/left-right/immo-wegmann-Z1iO_gOa0v8-unsplash.jpg';
 import LeftRightStyle from './defLeftRightSection.module.css';
