@@ -1,10 +1,10 @@
-import DefSkillsSection from './components/sections/skills_section/defSkillsSection';
+import DefClientsSection from './components/sections/clients_section/defClientsSection';
 import './style.css';
 
 function App() {
     return (
         <div className="App">
-            <DefSkillsSection />
+            <DefClientsSection />
         </div>
     );
 }
