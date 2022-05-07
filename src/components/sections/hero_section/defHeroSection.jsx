@@ -32,12 +32,12 @@ function DefHeroSection() {
                             deserunt.
                         </div>
                         <div className="d-inline-flex align-items-center gap-3 gap-md-4 gap-lg-5">
-                            <Button className="btn-dark dark-box-shadow rounded-3 border border-2 border-dark text-capitalize">
+                            <Button className="btn-dark darkBoxShadow rounded-3 border border-2 border-dark text-capitalize">
                                 Lorem.
                             </Button>
                             <Button
                                 href="##"
-                                className="btn-outline-dark dark-box-shadow rounded-3"
+                                className="btn-outline-dark darkBoxShadow rounded-3"
                                 type="button"
                             >
                                 <FaPlayCircle size={42} />

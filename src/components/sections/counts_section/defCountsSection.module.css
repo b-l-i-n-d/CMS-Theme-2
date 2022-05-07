@@ -1,0 +1,51 @@
+.counts .countsCard {
+    border: #f59327 2px solid;
+    border-radius: 15px;
+    background: #1e293b;
+    padding: 2.5rem;
+}
+
+.counts .countsCard .title {
+    color: #fbfbfb;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.counts .countsCard .subtitle {
+    color: #b8c1cb;
+    font-weight: 600;
+    font-family: "Nunito", sans-serif;
+}
+
+.counts .countsCard .hLine {
+    height: 0.125rem;
+    width: 100%;
+    background: #f59327;
+    border-radius: 25px;
+    margin: 2rem 0 0.25rem 0;
+}
+
+.counts .countsCard .countIcon1 {
+    color: #22c55e;
+    background: #dcfce7;
+}
+
+.counts .countsCard .countIcon2 {
+    color: #f43f5e;
+    background: #ffe4e6;
+}
+
+.counts .countsCard .countIcon3 {
+    background: #e0f2fe;
+    color: #0ea5e9;
+}
+
+.counts .countsCard .countIcon4 {
+    color: #f59e0b;
+    background: #fef3c7;
+}
+
+.counts .darkBoxShadow {
+    -webkit-box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
+    box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
+}

@@ -1,10 +1,10 @@
-import DefContentSlider from './components/sections/contentSlider_section/defContentSlider';
+import DefCountsSection from './components/sections/counts_section/defCountsSection';
 import './style.css';
 
 function App() {
     return (
         <div className="App">
-            <DefContentSlider />
+            <DefCountsSection />
         </div>
     );
 }

@@ -11,7 +11,7 @@ function DefServicesSection() {
                 <div className="d-flex flex-column align-items-center text-center py-5">
                     <div className="title">Lorem, ipsum.</div>
 
-                    <div className="h-line" />
+                    <div className="hLine" />
 
                     <div className="subtitle display-4">Lorem ipsum dolor sit amet.</div>
 
