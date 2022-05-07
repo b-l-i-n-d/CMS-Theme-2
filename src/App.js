@@ -1,10 +1,10 @@
-import DefClientsSection from './components/sections/clients_section/defClientsSection';
+import DefContentSlider from './components/sections/contentSlider_section/defContentSlider';
 import './style.css';
 
 function App() {
     return (
         <div className="App">
-            <DefClientsSection />
+            <DefContentSlider />
         </div>
     );
 }

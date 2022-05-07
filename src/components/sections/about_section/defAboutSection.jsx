@@ -29,7 +29,7 @@ function DefAboutSection() {
                     </Col>
                     <Col
                         lg={6}
-                        className="img-container"
+                        className="imgContainer"
                         style={{ backgroundImage: `url(${AboutImage})` }}
                     />
                 </Row>

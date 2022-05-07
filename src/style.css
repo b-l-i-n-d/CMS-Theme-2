@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif !important;
 }
 
-.img-container {
+.imgContainer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,32 +87,6 @@ body {
 .swiper .swiper-button-next:hover,
 .swiper .swiper-button-prev:hover {
     opacity: 100%;
-}
-
-.contentSlider .img-container {
-    border-radius: 0px;
-}
-
-.contentSlider .swiper .swiper-slide {
-    padding: 60px;
-}
-
-@media (min-width: 576px) {
-    .contentSlider .swiper .swiper-slide {
-        padding: 70px;
-    }
-}
-
-@media (min-width: 768px) {
-    .contentSlider .swiper .swiper-slide {
-        padding: 80px;
-    }
-}
-
-@media (min-width: 992px) {
-    .contentSlider .swiper .swiper-slide {
-        padding: 90px;
-    }
 }
 
 .testimonials .testimonial-card {

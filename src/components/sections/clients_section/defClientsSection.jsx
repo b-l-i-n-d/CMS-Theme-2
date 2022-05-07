@@ -4,8 +4,6 @@ import { Container, Image } from 'react-bootstrap';
 import { Autoplay } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import AdobeImg from '../../../assets/img/clients_img/adobe.png';
 import GoogleImg from '../../../assets/img/clients_img/google.png';

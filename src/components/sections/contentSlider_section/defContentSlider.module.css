@@ -1,0 +1,25 @@
+.contentSlider .imgContainer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px;
+    padding: 60px;
+}
+
+@media (min-width: 576px) {
+    .contentSlider .imgContainer {
+        padding: 70px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contentSlider .imgContainer {
+        padding: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .contentSlider .imgContainer {
+        padding: 90px;
+    }
+}
