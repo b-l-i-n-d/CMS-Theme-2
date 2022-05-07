@@ -1,0 +1,47 @@
+.portfolio .imgContainer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.portfolio .imgContainer a i {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.portfolio .imgContainer a:hover i {
+    background: #b8c1cb !important;
+}
+
+.portfolio .portfolioBtn {
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+.portfolio .hLine {
+    height: 0.25rem;
+    width: 12rem;
+    background: #f59327;
+    border-radius: 25px;
+    margin: 0.25rem 0px;
+}
+
+.portfolio .portfolioAttributes {
+    background: #f1f5f9;
+    border-radius: 15px;
+}
+
+.portfolio .portfolioAttributes .badgePrimary {
+    background: #f87171;
+}
+
+.portfolio .portfolioAttributes .badgeSecondary {
+    background: #a3e635;
+}
+
+.portfolio .portfolioSkills {
+    background: #e2e8f0;
+    border-radius: 15px;
+}

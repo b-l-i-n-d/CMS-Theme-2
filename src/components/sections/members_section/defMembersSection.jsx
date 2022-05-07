@@ -17,7 +17,7 @@ import MembersStyle from './defMembersSection.module.css';
 
 function DefMembersSection() {
     return (
-        <section id="members" className={`${MembersStyle.members}`}>
+        <section id="members" className={`${MembersStyle.members} py-5`}>
             <Container fluid="xl">
                 <div className="d-flex flex-column align-items-center text-center py-5">
                     <div className="title">Lorem, ipsum.</div>
