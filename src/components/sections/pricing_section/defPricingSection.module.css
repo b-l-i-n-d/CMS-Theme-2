@@ -1,0 +1,77 @@
+.pricing .pricingCard {
+    border-radius: 15px;
+    background: white;
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.pricing .pricingCard:hover {
+    background: #1e293b;
+    color: #fbfbfb;
+    -webkit-transform: scale(0.97);
+    transform: scale(0.97);
+}
+
+.pricing .pricingCard:active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.pricing .active {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    background: #1e293b;
+    color: #fbfbfb;
+}
+
+.pricing .active .duration {
+    color: #1e293b;
+}
+
+.pricing .darkBoxShadow {
+    -webkit-box-shadow: 0px 10px 30px rgba(36, 25, 25, 0.2);
+    box-shadow: 0px 10px 30px rgba(36, 25, 25, 0.2);
+}
+
+.pricing .pricingCard .title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.pricing .pricingCard .hLine {
+    width: 100%;
+    height: 0.125rem;
+    margin: 2rem 0px;
+    background-color: #cbd5e1;
+}
+
+.pricing .pricingCard .cost {
+    font-weight: 700;
+    color: #f59327;
+}
+
+.pricing .pricingCard .duration {
+    background: #cbd5e1;
+    font-weight: 600;
+}
+
+.pricing .pricingCard:hover .duration {
+    color: #1e293b;
+}
+
+.pricing .pricingCard .features i {
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+.pricing .pricingCard:hover .features i {
+    color: #22c55e;
+}
+
+.pricing .pricingCard .buyBtn {
+    font-weight: 600;
+}
+
+.pricing .pricingCard .buyBtn:hover {
+    background: #64748b;
+}
