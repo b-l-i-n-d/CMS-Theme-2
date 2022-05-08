@@ -89,51 +89,6 @@ body {
     opacity: 100%;
 }
 
-.testimonials .testimonial-card {
-    border-radius: 15px;
-    background: #fbfbfb;
-}
-
-.testimonials .testimonial-card .testimonial-card-image {
-    height: 160px;
-}
-
-.testimonials .testimonial-card .testimonial-quote {
-    color: #f59327;
-}
-
-.testimonials .swiper {
-    background: #fcf4e9;
-    border-radius: 25px;
-}
-
-.testimonials .swiper .swiper-slide {
-    padding: 40px 12px !important;
-}
-
-@media (min-width: 576px) {
-    .testimonials .swiper .swiper-slide {
-        padding: 40px 20px !important;
-    }
-}
-
-@media (min-width: 768px) {
-    .testimonials .swiper .swiper-slide {
-        padding: 50px 25px !important;
-    }
-}
-
-@media (min-width: 992px) {
-    .testimonials .swiper .swiper-slide {
-        padding: 60px 40px !important;
-    }
-}
-
-.counts .dark-box-shadow {
-    -webkit-box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
-    box-shadow: 0px 15px 25px rgba(36, 25, 25, 0.3);
-}
-
 /* .faq .accordion .accordion-item {
     padding: 1rem 0px;
 }
