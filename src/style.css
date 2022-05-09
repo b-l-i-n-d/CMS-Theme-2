@@ -89,28 +89,20 @@ body {
     opacity: 100%;
 }
 
-/* .faq .accordion .accordion-item {
+.accordion .accordion-item {
     padding: 1rem 0px;
 }
 
-.faq .accordion .accordion-item .accordion-button {
+.accordion .accordion-item .accordion-button {
     -webkit-box-shadow: none;
     box-shadow: none;
     font-weight: 600;
 }
 
-.faq .accordion .accordion-item .accordion-button::after {
-    background-image: url("../img/faq/bxs-down-arrow.svg");
-}
-
-.faq .accordion .accordion-item .accordion-button:not(.collapsed) {
+.accordion .accordion-item .accordion-button:not(.collapsed) {
     color: #f59327;
     background-color: #f1f5f9;
 }
-
-.faq .accordion .accordion-item .accordion-button:not(.collapsed)::after {
-    background-image: url("../img/faq/bxs-down-arrow-colored.svg");
-} */
 
 .gallery .gallery-flex .gallery-item {
     -webkit-transition: all 0.3s ease;

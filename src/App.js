@@ -1,10 +1,10 @@
-import DefTestimoialSection from './components/sections/testimonial_section/defTestimoialSection';
+import DefFaqSection from './components/sections/faq_section/defFaqSection';
 import './style.css';
 
 function App() {
     return (
         <div className="App">
-            <DefTestimoialSection />
+            <DefFaqSection />
         </div>
     );
 }
