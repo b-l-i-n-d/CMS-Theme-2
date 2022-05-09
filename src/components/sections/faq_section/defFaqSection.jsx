@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion } from 'react-bootstrap';
+import Accordion from 'react-bootstrap/Accordion';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import FaqStyle from './defFaqSection.module.css';
